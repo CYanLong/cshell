@@ -1,22 +1,23 @@
 ### 支持基本Linux命令的shell环境
 ---
 
-> ls [-l]
+## 关于文件管理
 
-> cd 
+* ls [-l]
 
-> touch newfile 
+* cd pathname
 
-> mkdir newdir
+* touch newfile 
 
-> rm filename
+* mkdir newdir
 
-> rmdir dirname
+* rm filename
 
-> cp sourfile destfile
+* rmdir dirname
 
-> chmod modes file
+* cp sourfile destfile
 
-> mv oldfile newfile
+* chmod modes file
 
+* mv oldfile newfile
 
