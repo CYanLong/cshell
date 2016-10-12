@@ -1,7 +1,7 @@
 ### 支持基本Linux命令的shell环境
 ---
 
-<H4> 关于文件管理</H4>
+<H4> about file-system </H4>
 
 * ls [-l]
 
@@ -20,4 +20,12 @@
 * chmod modes file
 
 * mv oldfile newfile
+
+* ln [-s] sourpath targetpath
+
+
+<H4> about network </H4>
+
+* ping hostname/ip address
+
 

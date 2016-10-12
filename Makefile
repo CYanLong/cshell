@@ -1,4 +1,4 @@
-cshell: cshell.o  parg.o chcwd.o cumask.o cshell.h ls rm rmdir touch mkdir chmod mv cp ln
+cshell: cshell.o  parg.o chcwd.o cumask.o cshell.h ls rm rmdir touch mkdir chmod mv cp ln ping
 	gcc cshell.o  parg.o chcwd.o cumask.o cshell.h -o cshell
 
 cumask.o: cumask.c
@@ -27,3 +27,5 @@ chcwd.o: chcwd.c
 	gcc -c chcwd.c 
 ln: ln.c
 	gcc ln.c -o ln
+ping: ping.c
+	gcc ping.c -o ping
